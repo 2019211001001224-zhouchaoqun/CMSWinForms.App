@@ -61,6 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CMSDBDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="customerDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>customerDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,11 +78,22 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobDetailsDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobDetailsDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="JobDetailsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="JobDetailsForm.Designer.cs">
       <DependentUpon>JobDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobDetailsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobDetailsForm2.Designer.cs">
+      <DependentUpon>JobDetailsForm2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JobDetailsForm.resx">
       <DependentUpon>JobDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobDetailsForm2.resx">
+      <DependentUpon>JobDetailsForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -149,6 +168,28 @@
     </None>
     <None Include="CMSDBDataSet2.xss">
       <DependentUpon>CMSDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="customerDataSet1.xsc">
+      <DependentUpon>customerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="customerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>customerDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="customerDataSet1.xss">
+      <DependentUpon>customerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="JobDetailsDataSet3.xsc">
+      <DependentUpon>JobDetailsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="JobDetailsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobDetailsDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobDetailsDataSet3.xss">
+      <DependentUpon>JobDetailsDataSet3.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
